@@ -1,0 +1,21 @@
+1일차
+
+REPL모드 
+
+read 입력
+eval 계산
+print 출력
+loop  반복
+
+모듈 : 부품. module 
+
+-모듈 내부함수를 공개-
+exports.(공개적 name) = (내부(원래) name);
+모듈을 외부에서도 사용 가능하게끔 해줌
+ex) export.plus = add; 
+-> 내부에서는 add라고 정의되어 있지만 외부에서는 plus로 호출
+
+※ require 함수 리턴 객체는 상수로(const) 대입.
+
+모듈 안의 것들을 '하나씩' 밖으로 공개할 때는 exports
+모듈 내 여러개를 하나의 객체로 만들어서 공개할 때는 module.exports
