@@ -38,7 +38,7 @@
 
 
 // console.log('Finish');
-// // 비동기 프로그래밍
+// // 비동기 프로그래밍 
 
 const EventEmitter = require('events'); // emitter 코어모듈 땡겨옴
 
