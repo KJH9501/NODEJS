@@ -75,4 +75,4 @@ myEmitter2.on('test', (info) => {
 
 myEmitter.emit('test'); // myEmitter로 test라는 이벤트 발생.
 myEmitter2.emit('test', 'data', 'content', 'file'); // 이 메서드가 62line 위로가게되면 출력순서 또한 바뀜
-myEmitter2.emit('test', obj)
+myEmitter2.emit('test', obj);
