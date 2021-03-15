@@ -27,3 +27,16 @@ ex) export.plus = add;
 동기 - 콜백이 없음. 
 
 setTimeout함수 (인위적으로 비동기실행) - 특정 밀리초 이후 코드실행.
+
+3일차
+프로토콜 - 일련의 통신규약
+127.0.0.1 - 루프백 IP (자기호출)
+포트번호 - client -> Server 연결시 연결지정번호
+URL- 웹상 특정자원위치 표시 문자열
+let url = new URL('http://example.com/buisness/mart/item?category=14%id=2965');
+
+console.log(url.protocol);
+console.log(url.host);
+console.log(url.pathname);
+console.log(url.search);
+url 구조 확인
