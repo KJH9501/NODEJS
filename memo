@@ -40,3 +40,32 @@ console.log(url.host);
 console.log(url.pathname);
 console.log(url.search);
 url 구조 확인
+
+4일차
+서드파티모듈 관리 npm(node package manager)  숙지
+모듈검색순서 숙지.
+requir() 내부에 경로가 명시되어있는지 아닌지에 따라 분기.
+내부웨 이름만 사용시 코어모듈일 경우 바로 로드, 아닐 시 노드모듈 내 디렉토리나 파일 검색후 index나 package json로드
+경로 표시되어있을경우 경로에 따라 모듈 호출
+파일 가진 디렉토리가 패키지
+하나의 서드파티모듈은 하나의 패키지
+서드파티모듈 = 패키지
+
+|package.json| 주요 정보
+name - 이름
+version - 버전
+decription -  설명
+keywords - 패키지 키워드 ex) 해시태그
+homepage - 관련 URL
+bugs - 버그신고가능한 email주소등
+license - 라이센스정보
+author / contributors - 만든사람 / 기여자
+scripts - 간단 스크립트파일정보
+dependencies -  현재 의존하고있는 패키지정보 (핵심)
+
+시멘틱버전 sementic version
+major . minor . patch
+ex) 1.2.65
+- patch = api 변화주지않는 범위내의 변화시 업데이트
+- minor = 이전버전 api와 호환되는 api상의 변화시 업데이트
+- major = 이전버전 api와 호환되지 않는 api상의 변화 시 업데이트 (기존api를 싹다 갈아엎을때)
